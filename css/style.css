@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**************************************
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+***************************************/
+
+/* header part */
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    overflow: hidden;
+    float: left;
+    width: 20%;
+}
+.logo a{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    width: 100%;
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu{
+    overflow: hidden;
+    float: right;
+    width: 80%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 82px;
+}
+.menu ul li a{
+    margin: 80px 0px 120px 40px;
+    font-size: 17px;
+    padding: 3px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+/* banner part */
+.banner{
+    overflow: hidden;
+}
+.banner_section{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+/* photodiary part */
+.photodiary{
+    overflow: hidden;
+}
+.photodiary_container{
+    overflow: hidden;
+}
+.photodiary_container h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 100px 0px 20px 200px;
+    display: block;
+}
+.photodiary_container h1{
+    margin: 0px 0px 10px 200px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.photodiary_container p{
+    margin: 30px 200px 50px 200px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.photodiary_container ul li a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px 0px 100px 200px;
+    display: block;
+    text-decoration: none;
+}
